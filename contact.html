@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-vidth, initial-
+    scale=1.0">
+    <title>Eduford University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                   <li><a href="index.html">ANASAYFA</a></li>
+                   <li><a href="about.html">HAKKINDA</a></li>
+                   <li><a href="course.html">KURSLAR</a></li>
+                   <li><a href="blog.html">BLOG</a></li>
+                   <li><a href="contact.html">İLETİŞİM</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Bize Ulaşın</h1>
+</section>
+
+
+<!-------- iletişim ------>
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=
+        !1m18!1m12!1m3!1d3059.729999107473!2d32.83436897649482!3d39.
+        92505808541667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!
+        1s0x14d34f190a9cea8f%3A0xd3862ea8248d08a0!2sAn%C4%B1tkabir!5e0!3m2
+        !1str!2str!4v1684096412814!5m2!1str!2str"
+         width="600" height="450" style="border:0;" allowfullscreen="" 
+         loading="lazy"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Yücetepe, Akdeniz Cd. No:31,06570</h5>
+                        <p>Çankaya/Ankara</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>0 505 060 1881</h5>
+                        <p>Çankaya/Ankara</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <span>
+                        <h5>akuyazilim@gmail.com</h5>
+                        <p>Sorgunuzu bize e-posta ile gönderin</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+
+                    <form action="form-handler-php" method="post">
+                        <input type="text" name="name" placeholder="İsminizi Girin" required>
+                        <input type="email" name="email" placeholder="E-posta Girin" required>
+                        <input type="text" name="subject" placeholder="Ders Girin" required>
+                        <textarea rows="8" name="message" placeholder="Mesaj" required></textarea>
+                        <button type="submit" class="hero-btn red-btn">
+                        Mesaj Gönder</button>
+
+
+            </div>
+        </div>
+    </section>
+    <!------- Footer  ---------->
+
+    <section class="footer">
+        <h4>HAKKIMIZDA</h4>
+        <p>
+            Biz kalbi olan lider bir araştırma üniversitesiyiz. ABD Anayasasının imzalandığı on yılda kurulan, ülkenin en eski Katolik ve Cizvit üniversitesiyiz. <br> Farklı deneyimlerimiz ve kimliklerimiz arasında köprü kuran bir insan topluluğuyuz. Eduford'u evi yapan insanlarla ve yerlerle tanışın.</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+            <p><i class="fa fa-heart-o"></i></p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------- JavaScript for Toggle Menu ---->
+<script>
+
+var navLinks = document.getElementById("navLinks");
+function showMenu(){
+    navLinks.style.right = "0";
+}
+function hideMenu(){
+    navLinks.style.right = "-200px";
+    }
+
+
+</script>
+
+    
+</body>
+</html>
